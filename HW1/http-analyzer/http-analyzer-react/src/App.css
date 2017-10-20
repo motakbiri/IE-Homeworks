@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  
+  height: 200px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-h1 {
+  margin-top: 35px;
+  font-size: 17px;
+}
+.App-h1-green {
+  margin-top: 35px;
+  font-size: 17px;
+  background-color: #4CAF50;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.App-h1-red {
+  margin-top: 35px;
+  font-size: 17px;
+  background-color: rgb(207, 57, 57);
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.App-input {
+  margin-top: 50px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 300px;
+  text-shadow: 0 0 2px rgba(0,0,0,0.1);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  border-radius: 7px 7px 7px 7px;
+  outline: none;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: black;
+  margin-top: 200px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 7px 7px 7px 7px;
+  outline: none;
+}
+.App-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
