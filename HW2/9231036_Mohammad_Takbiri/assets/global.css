@@ -1,0 +1,16 @@
+@font-face {
+    font-family: shabnam;
+    src: url(../fonts/Shabnam.ttf);
+}
+
+* {
+    font-family: shabnam;
+}
+.center {
+    text-align: center;
+}
+
+label{
+    font-size: 8pt;
+    color: gray;
+}

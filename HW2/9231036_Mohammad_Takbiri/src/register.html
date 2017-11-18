@@ -1,12 +1,73 @@
 <html>
-    <head>
-        <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="../assets/global.css" rel="stylesheet">
-        <link href="../assets/login.css" rel="stylesheet">
-        <meta charset="UTF-8">
-        <title>صفحه‌ی عضویت</title>
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/global.css" rel="stylesheet">
+    <link href="../assets/register.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>صفحه‌ی عضویت</title>
+</head>
+
+<body class="background">
+    <div class="modal">
+        <div class="nav">
+            <i class="fa fa-close close-icon"></i>
+        </div>
+        <div class="tabs">
+            <div class="active-tab">
+                <label class="icon">عضویت</label>
+                <i class="fa fa-user icon"></i>
+            </div>
+            <div class="disable-tab">
+                <label class="icon">ورود</label>
+                <i class="fa fa-sign-in icon"></i>
+            </div>
+        </div>
+        <div class="google-container">
+            <button class="google-plus">
+                ورود با حساب کاربری گوگل
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="circle-container">
+            <div class="circle">
+                <label class="circle-label">یا</label>
+            </div>
+        </div>
+
+        <form>
+            <div class="item">
+                <label class="label">ایمیل</label>
+                <input class="input" type="text" placeholder="ایمیل" />
+            </div>
+            <div class="item">
+                <label class="label">رمز عبور</label>
+                <input class="input" type="text" placeholder="رمز عبور" />
+            </div>
+            <div class="item">
+                <label class="label">تکرار رمز عبور</label>
+                <input class="input" type="text" placeholder="تکرار رمز عبور" />
+            </div>
+            <div class="item">
+                <label class="label">کد دعوت</label>
+                <input class="input" class="input" type="text" placeholder="کد دعوت" />
+            </div>
+            <div class="item">
+                <label class="label">کد امنیتی</label>
+                <div class="captcha-container">
+                    <input class="input" type="text" placeholder="کد امنیتی" />
+                    <img src="../img/captcha.jpeg">
+                </div>
+            </div>
+            <div class="term">
+                <input type="checkbox" />
+                <label>قوانین را مطالعه کردم و میپذیرم</label>
+            </div>
+        </form>
+        <button class="sign-in">
+            عضویت
+        </button>
+    </div>
+</body>
+
 </html>
